@@ -195,10 +195,6 @@ PRODUCT_PACKAGES += \
     libcld80211 \
     lib_driver_cmd_qcwcn
 
-# Camera
-PRODUCT_PACKAGES += \
-    SnapdragonCamera2
-
 # power
 PRODUCT_PACKAGES += \
     power.oneplus6
