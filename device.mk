@@ -195,6 +195,23 @@ PRODUCT_PACKAGES += \
     libcld80211 \
     lib_driver_cmd_qcwcn
 
+#Lawnchair
+PRODUCT_PACKAGES += \
+		Lawnchair \
+		LawnConf
+
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/addons/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+		$(LOCAL_PATH)/addons/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
+# Google Camera
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
+# OnePlus Camera Service
+PRODUCT_PACKAGES += \
+    OnePlusCameraService
+
 # power
 PRODUCT_PACKAGES += \
     power.oneplus6
