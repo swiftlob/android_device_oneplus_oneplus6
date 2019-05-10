@@ -212,10 +212,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCamera
 
-# OnePlus Camera Service
-PRODUCT_PACKAGES += \
-    OnePlusCameraService
-
 # power
 PRODUCT_PACKAGES += \
     power.oneplus6

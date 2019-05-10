@@ -34,17 +34,6 @@ LOCAL_OVERRIDES_PACKAGES := SnapdragonCamera2 Camera2
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-#OnePlusCameraService
-include $(CLEAR_VARS)
-LOCAL_MODULE := OnePlusCameraService
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-app/OnePlusCameraService/OnePlusCameraService.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
-include $(BUILD_PREBUILT)
-
 #WallpaperPickerGooglePrebuilt
 include $(CLEAR_VARS)
 LOCAL_MODULE := WallpaperPickerGooglePrebuilt
